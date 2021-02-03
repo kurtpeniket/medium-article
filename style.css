@@ -1,5 +1,6 @@
 body {
     font-family: 'Lora', serif;
+    font-size: 20px;
 }
 
 h1 {
@@ -52,6 +53,10 @@ body, html {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    background-image: linear-gradient(to bottom, rgb(150, 150, 200), rgba(150, 150, 200, 1));
 }
 
 @media (max-width: 750px) {
