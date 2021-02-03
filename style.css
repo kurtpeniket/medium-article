@@ -53,3 +53,22 @@ body, html {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 750px) {
+    .banner-text {
+        font-size: 0.9rem;
+    }
+
+    .article {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+        letter-spacing: normal;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+}
